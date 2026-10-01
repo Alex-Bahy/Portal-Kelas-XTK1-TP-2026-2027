@@ -635,7 +635,7 @@ footer .divider{width:44px;height:1px;background:var(--border);margin:12px auto;
 </a>
 
 <!-- MODAL -->
-<div id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"> 
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal()" aria-label="Tutup">✕</button>
     <div class="modal-icon">🗄️</div>
@@ -655,7 +655,7 @@ footer .divider{width:44px;height:1px;background:var(--border);margin:12px auto;
 <header class="hero" style="position:relative;z-index:1;">
   <nav class="nav">
     <div class="nav-brand">
-      <div class="nav-logo">TJ</div>
+      <div class="nav-logo">TK</div>
       <div class="nav-school">
         <span class="full">X Teknik Jaringan Komputer &amp; Telekomunikasi 2</span>
         <span class="short">X TK 1</span>
@@ -675,7 +675,7 @@ footer .divider{width:44px;height:1px;background:var(--border);margin:12px auto;
   </div>
 
   <div class="hero-body">
-    <div class="hero-kode"><span class="kode-dot"></span>[ PORTAL_AKADEMIK // X.TJKT.2 ]</div>
+    <div class="hero-kode"><span class="kode-dot"></span>[ PORTAL_AKADEMIK // X.TKKT.2 ]</div>
     <h1 class="hero-title">
       <span class="line1">Nilai &amp; Rekap</span>
       <span class="line2">Kelas X TK 1</span>
@@ -771,23 +771,23 @@ footer .divider{width:44px;height:1px;background:var(--border);margin:12px auto;
 
 <script>
 const PASS = 'SMKBisa';
-const DATA_URL = 'https://alex-bahy.github.io/Data-siswa-XTJKT2-TP-2026-2027/';
-const SK = 'xtjkt2_mapel_links_v2';
+const DATA_URL = 'https://alex-bahy.github.io/Data-siswa-XTKKT2-TP-2026-2027/';
+const SK = 'xTKkt2_mapel_links_v2';
 
 const DEFAULTS = {
-  '01': 'https://alex-bahy.github.io/DN-Pend.-Agama-XTJKT2-ganjil-TP-2026-2027/',
-  '02': 'https://alex-bahy.github.io/DN-Pend.-Pancasila-XTJKT2-ganjil-TP-2026-2027/',
-  '03': 'https://alex-bahy.github.io/DN-B.-Indonesia-XTJKT2-ganjil-TP-2026-2027/',
-  '04': 'https://alex-bahy.github.io/DN-PJOK-XTJKT2-ganjil-TP-2026-2027/',
-  '05': 'https://alex-bahy.github.io/DN-Sejarah-XTJKT2-ganjil-TP-2026-2027/',
-  '06': 'https://alex-bahy.github.io/DN-Seni-Budaya-XTJKT2-ganjil-TP-2026-2027/',
-  '07': 'https://alex-bahy.github.io/DN-Matematika-XTJKT2-ganjil-TP-2026-2027/',
-  '08': 'https://alex-bahy.github.io/DN-B.-Inggris-XTJKT2-ganjil-TP-2026-2027/',
-  '09': 'https://alex-bahy.github.io/DN-Informatika-XTJKT2-ganjil-TP-2026-2027/',
-  '10': 'https://alex-bahy.github.io/DN-Projek-IPAS-XTJTK2-ganjil-TP-2026-2027/',
-  '11': 'https://alex-bahy.github.io/DN-Dasar-Program-Keahlian-XTJKT2-ganjil-TP-2026-2027/',
-  '12': 'https://alex-bahy.github.io/DN-Muatan-Lokal-XTJKT2-ganjil-TP-2026-2027/',
-  'L1': 'https://alex-bahy.github.io/Ledger-XTJKT2-ganjil-TP-2026-2027/',
+  '01': 'https://alex-bahy.github.io/DN-Pend.-Agama-XTKKT2-ganjil-TP-2026-2027/',
+  '02': 'https://alex-bahy.github.io/DN-Pend.-Pancasila-XTKKT2-ganjil-TP-2026-2027/',
+  '03': 'https://alex-bahy.github.io/DN-B.-Indonesia-XTKKT2-ganjil-TP-2026-2027/',
+  '04': 'https://alex-bahy.github.io/DN-PJOK-XTKKT2-ganjil-TP-2026-2027/',
+  '05': 'https://alex-bahy.github.io/DN-Sejarah-XTKKT2-ganjil-TP-2026-2027/',
+  '06': 'https://alex-bahy.github.io/DN-Seni-Budaya-XTKKT2-ganjil-TP-2026-2027/',
+  '07': 'https://alex-bahy.github.io/DN-Matematika-XTKKT2-ganjil-TP-2026-2027/',
+  '08': 'https://alex-bahy.github.io/DN-B.-Inggris-XTKKT2-ganjil-TP-2026-2027/',
+  '09': 'https://alex-bahy.github.io/DN-Informatika-XTKKT2-ganjil-TP-2026-2027/',
+  '10': 'https://alex-bahy.github.io/DN-Projek-IPAS-XTKTK2-ganjil-TP-2026-2027/',
+  '11': 'https://alex-bahy.github.io/DN-Dasar-Program-Keahlian-XTKKT2-ganjil-TP-2026-2027/',
+  '12': 'https://alex-bahy.github.io/DN-Muatan-Lokal-XTKKT2-ganjil-TP-2026-2027/',
+  'L1': 'https://alex-bahy.github.io/Ledger-XTKKT2-ganjil-TP-2026-2027/',
 };
 
 const SUBJECTS = {
@@ -815,7 +815,7 @@ const SUBJECTS = {
 };
 
 function buildCard(s){
-  const ph  = s.ledger ? 'https://username.github.io/ledger-XTJKT2/' : 'https://username.github.io/nama-repo/';
+  const ph  = s.ledger ? 'https://username.github.io/ledger-XTKKT2/' : 'https://username.github.io/nama-repo/';
   const lbl = s.ledger ? 'Buka Ledger' : 'Input Nilai';
   const num = s.ledger ? '📊' : s.id;
   return `<div class="subj-card ${s.cls}" id="card-${s.id}">
